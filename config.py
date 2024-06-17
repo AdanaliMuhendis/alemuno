@@ -27,7 +27,7 @@ try:
 except FileNotFoundError:
     config = {}
 
-TOKEN = os.getenv("TOKEN", config.get("token"))
+TOKEN = os.getenv("7294601857:AAFELff7qAJT2zNCIhuDlIiSA4rCZSKV9Qw", config.get("7294601857:AAFELff7qAJT2zNCIhuDlIiSA4rCZSKV9Qw"))
 WORKERS = int(os.getenv("WORKERS", config.get("workers", 32)))
 ADMIN_LIST = os.getenv("ADMIN_LIST", config.get("admin_list", None))
 
