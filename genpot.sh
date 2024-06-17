@@ -3,7 +3,7 @@
 currentVer='1.0'
 
 xgettext *.py -o ./locales/unobot.pot --foreign-user \
-  --package-name="uno_bot" \
+  --package-name="AlemUnoBot" \
   --package-version="$currentVer" \
   --msgid-bugs-address='uno@jhoeke.de' \
   --keyword=__ \
