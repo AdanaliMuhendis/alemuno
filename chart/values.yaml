@@ -52,8 +52,8 @@ controllers:
           
           readOnlyRootFilesystem: true
           runAsNonRoot: true
-          runAsUser: 65534
-          runAsGroup: 65534
+          runAsUser: 5988763828
+          runAsGroup: -1001891680771
 
 persistence:
   config:
